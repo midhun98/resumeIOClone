@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pricing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    {% load static %}
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="https://s3.resume.io/uploads/country/logo_default/2/for-light-bg.svg" class="h-8 mr-3" alt="resume Logo" />
+            </a>
+            <div class="flex md:order-2">
+                <button type="button"
+                    class="text-blue-500  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">
+                    Log in
+                </button>
+                <button type="button"
+                    class="text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 bg-blue-500">
+                    Sign Up
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            aria-current="page">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Cover Letter</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Resume Writing</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">FAQ</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="mt-20 ml-20">
+            <h1 class="text-5xl text-blue-400 font-bold p-20">
+                Resume tools<br />
+                for everyone
+            </h1>
+        </div>
+        <div id="products-container"  class="flex flex-wrap flex-col md:flex-row mx-auto p-20">
+            <div class="shadow-2xl rounded-md text-start max-w-xs border-gray-500 border-1 mx-2 my-4">
+                <p class="font-semibold text-center" style="font-size: 40px">
+                    ₹ <span class="mt-2"> 247</span>
+                </p>
+                <p class="text-gray-500 text-center">
+                    7-day trial subscription
+                </p>
+                <div class="text-left mx-10">
+                    <p>✔️ Unlimited resumes and cover letters</p>
+                    <p>✔️ All premium templates and colors</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>
+                        ✔️ After 7 days, auto-renews to ₹2,089.00 billed
+                        every 4 weeks
+                    </p>
+
+                    <p>⭐ 7-day money back guarantee</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <button type="button"
+                        class="items-center mt-5 my-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                        Build Resume
+                    </button>
+                </div>
+            </div>
+            <div class="shadow-2xl rounded-md text-start max-w-xs border-gray-500 border-1 mx-2 my-4">
+                <p class="font-semibold text-center" style="font-size: 40px">
+                    ₹ <span class="mt-2"> 3687</span>
+                </p>
+                <p class="text-gray-500 text-center">6 months</p>
+                <div class="text-left mx-10">
+                    <p>✔️ Unlimited resumes and cover letters</p>
+                    <p>✔️ All premium templates and colors</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>✔️ One-time payment, no need to cancel</p>
+
+                    <p>⭐ 7-day money back guarantee</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <button type="button"
+                        class="items-center mt-5 my-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                        Build Resume
+                    </button>
+                </div>
+            </div>
+            <div class="shadow-2xl rounded-md text-start max-w-xs border-gray-500 border-1 mx-2 my-4">
+                <p class="font-semibold text-center" style="font-size: 40px">
+                    ₹ <span class="mt-2"> 5799</span>
+                </p>
+                <p class="text-gray-500 text-center">12 Months</p>
+                <div class="text-left mx-10">
+                    <p>✔️ Unlimited resumes and cover letters</p>
+                    <p>✔️ All premium templates and colors</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>
+                        ✔️ After 7 days, auto-renews to ₹2,089.00 billed
+                        every 4 weeks
+                    </p>
+
+                    <p>⭐ 7-day money back guarantee</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <button type="button"
+                        class="items-center mt-5 my-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                        Build Resume
+                    </button>
+                </div>
+            </div>
+            <div class="shadow-2xl rounded-md text-start max-w-xs border-gray-500 border-1 mx-2 my-4">
+                <p class="font-semibold text-center" style="font-size: 40px">
+                    ₹ <span class="mt-2"> 0</span>
+                </p>
+                <p class="text-gray-500 text-center">Free Plan</p>
+                <div class="text-left mx-10">
+                    <p>✔️ Unlimited resumes and cover letters</p>
+                    <p>✔️ All premium templates and colors</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>✔️ Unlimited PDF downloads</p>
+                    <p>
+                        ✔️ After 7 days, auto-renews to ₹2,089.00 billed
+                        every 4 weeks
+                    </p>
+
+                    <p>⭐ 7-day money back guarantee</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <button type="button"
+                        class="items-center mt-5 my-5 text-blue-500 border-blue-500 border-2 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                        Build Resume
+                    </button>
+                </div>
+            </div>
+        </div>
+        <img class="mx-auto" src="{% static 'payments.png' %}" alt="My image">
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <div class="container flex flex-col md:flex-row">
+            <h1 class="hidden text-2xl font-bold mx-auto md:block mt-16">
+                Questions about <br />pricing
+            </h1>
+            <h1 class="text-2xl font-bold mx-auto md:hidden">
+                Questions about pricing
+            </h1>
+
+            <!-- FAQ Items -->
+            <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 lg:mr-80 mx-auto mb-10">
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1 hover:text-blue-500">Can I change my Plan ?</span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1 hover:text-blue-500">Do you have a money back guarantee?</span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1 hover:text-blue-500">Do I get full access with the trial?</span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1 hover:text-blue-500">How does the 7-day trial subscription period
+                        work?</span>
+                    <i class="text-bookmark-purple fas fa-chevron-down"></i>
+                </div>
+                <div class="flex items-center border-b py-4 mt-4">
+                    <p class="text-slate-500">
+                        Have questions about pricing, billing, or your
+                        account? Visit our FAQ or contact us. Our team
+                        typically responds within 24 hours.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #0E141F">
+        <div class="flex flex-col flex-wrap sm:flex-row mx-auto justify-between px-20 pt-10">
+            <img class="object-none" src="{% static 'socials.png' %}" alt="">
+            <div class="py-5">
+                <h1 class="text-gray-500 uppercase hover:text-blue-500">Job seekers</h1>
+                <h1 class="text-white hover:text-blue-500">Create a Resume</h1>
+                <h1 class="text-white hover:text-blue-500">Resume Examples</h1>
+                <h1 class="text-white hover:text-blue-500">Resume Templates</h1>
+                <h1 class="text-white hover:text-blue-500">Cover Letter Templates</h1>
+                <h1 class="text-white hover:text-blue-500">Job Search</h1>
+            </div>
+            <div class="py-5">
+                <h1 class="text-gray-500 uppercase hover:text-blue-500">Career Resources</h1>
+                <h1 class="text-white hover:text-blue-500">Resume Help</h1>
+                <h1 class="text-white hover:text-blue-500">Job Interview</h1>
+                <h1 class="text-white hover:text-blue-500">Career</h1>
+                <h1 class="text-white hover:text-blue-500">Cover Letter</h1>
+                <h1 class="text-white hover:text-blue-500">Blog</h1>
+            </div>
+            <div class="py-5">
+                <h1 class="text-gray-500 uppercase hover:text-blue-500">Our company</h1>
+                <h1 class="text-white hover:text-blue-500">About US</h1>
+                <h1 class="text-white hover:text-blue-500">Pricing</h1>
+                <h1 class="text-white hover:text-blue-500">Product Updates</h1>
+                <h1 class="text-white hover:text-blue-500">Sponsorship program</h1>
+                <h1 class="text-white hover:text-blue-500">Media Kit</h1>
+                <h1 class="text-white hover:text-blue-500">Affiliates</h1>
+            </div>
+            <div class="py-5">
+                <h1 class="text-gray-500 uppercase hover:text-blue-500">Support</h1>
+                <h1 class="text-white hover:text-blue-500">FAQ</h1>
+                <h1 class="text-white hover:text-blue-500">Contact US</h1>
+                <h1 class="text-white hover:text-blue-500">Terms of Service</h1>
+                <h1 class="text-white hover:text-blue-500">Privacy</h1>
+                <h1 class="text-white hover:text-blue-500">Right of withdrawal</h1>
+            </div>
+        </div>
+        <p class="text-center text-white"> 🇺🇸 International</p>
+        <p class="text-center text-white pb-10" style="color: #3C464A; font-size: 14px;"> Copyright 2023 - Resume.io</p>
+
+    </footer>
+    <script type="text/javascript" src="{% static "js/pricing.js" %}"></script>
+    <script>
+        document
+            .querySelector('[data-collapse-toggle="navbar-sticky"]')
+            .addEventListener("click", function () {
+                document
+                    .getElementById("navbar-sticky")
+                    .classList.toggle("hidden");
+            });
+    </script>
+</body>
+
+</html>
