@@ -1,5 +1,4 @@
 const apiUrl = "http://127.0.0.1:8000/api/products/";
-const container = document.getElementById("products-container"); // Assuming you have a div with id "products-container" in your HTML
 
 async function fetchProducts() {
     try {
